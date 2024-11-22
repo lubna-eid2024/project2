@@ -1,0 +1,459 @@
+*{padding: 0;
+margin:0;
+box-sizing: border-box;}
+
+/*  الصوره تنسيق لينكات  */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 70%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 15px 50px;
+    width: 100%;
+}
+/* تنسيق لينكات */
+.nav {
+    text-decoration: none;
+    position: fixed;
+    word-spacing: 10px;
+}
+/* تنسيق الصوره  */
+.nav img{
+
+max-width: 150%;
+}
+/* تنسيق لينكات */
+.nav a{
+    text-transform: uppercase;
+    margin: 0 15px;
+    color: wheat;
+}
+
+.nav a:hover{
+    color: red;
+    background-color: red;
+}
+.nav img:hover{
+    background-color: red;
+}
+/* تنسيق header */
+.hero{
+   position: relative;
+   background-image: url(imge/photo-gallery-11.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   width: 100%;
+   background-position: 10px;
+   transition: 2ms linear 2ms;
+   -webkit-transition: 2ms linear 2ms;
+   -moz-transition: 2ms linear 2ms;
+   -ms-transition: 2ms linear 2ms;
+   -o-transition: 2ms linear 2ms;
+}
+.hero:hover{
+    background-image: url(imge/photo-gallery-10.jpg);
+    
+}
+.hero .content{ position: absolute; top:50%; left: 50%; transform:translate(-50%) ;
+     -webkit-transform:translate(-50%) ;
+      -moz-transform:translate(-50%) ; 
+      -ms-transform:translate(-50%) ;
+       -o-transform:translate(-50%);
+}
+
+
+/* بدايه مجموعه الاولى */
+.content{
+    position: absolute;
+    text-align: center;
+    margin-left: 300px;
+    }
+    .content p{
+        color: white;
+        font-style: italic;
+        font-size: 2em;
+        margin-bottom: 10px;
+        text-align: center;
+        transition:all 2s ease-out 2s;
+        -webkit-transition:all 2s ease-out 2s;
+        -moz-transition:all 2s ease-out 2s;
+        -ms-transition:all 2s ease-out 2s;
+        -o-transition:all 2s ease-out 2s;
+}
+    .content h1{
+        text-transform: uppercase;
+        font-size: 4rem;
+        color: white;
+        font-style: italic;
+        text-align: center;
+        font-weight: bold;
+        transition:all 2s ease-out 2s;
+        -webkit-transition:all 2s ease-out 2s;
+        -moz-transition:all 2s ease-out 2s;
+        -ms-transition:all 2s ease-out 2s;
+        -o-transition:all 2s ease-out 2s;
+    }
+    .content button{
+        background-color: white;
+        color: brown;
+        border:none;
+        padding: 10px 20px;
+        width: 100px;
+        height: 50px;
+        text-align: center;
+        transition:all 2s ease-out 2s;
+        -webkit-transition:all 2s ease-out 2s;
+        -moz-transition:all 2s ease-out 2s;
+        -ms-transition:all 2s ease-out 2s;
+        -o-transition:all 2s ease-out 2s;
+    }
+    .content button:hover{
+        background-color: red;
+    }
+    /* نهايه مجموعه الاولى */
+    /* بدايه مجموعه تانيه */
+   .section{
+    
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+padding: 80px 0;
+   }
+   .text{
+ display: inline-block;
+ width: 80%;
+ max-width: 400px;
+ text-align: left;
+ overflow: hidden;
+ margin: 0 auto;
+ 
+ 
+}
+.text span{ font-style: italic;
+    font-size: 20px;
+    color: brown;
+    margin-bottom: 5px;
+
+}
+.text h2{
+    font-weight: bold;
+    color: black;
+    font-size: 40px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.text p{
+    color: burlywood;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+.text a{
+    color: burlywood;
+    
+    transition: all 2s ease-out 2s;
+    -webkit-transition: all 2s ease-out 2s;
+    -moz-transition: all 2s ease-out 2s;
+    -ms-transition: all 2s ease-out 2s;
+    -o-transition: all 2s ease-out 2s;
+}
+.text a:hover{
+    color: brown;
+    background-color: red;
+}
+
+   .image{
+    float: right;
+    width: 100%;
+    max-width: 400px;
+    overflow: hidden;
+    border-bottom: 1px solid #555;
+    padding-bottom: 2px;
+   height: 100%;
+   max-height: 400px;
+   font-size: 14px;
+   font-weight: bold;
+    
+}
+   .image:hover{
+    transform: scale(2,2);
+    -webkit-transform: scale(2,2);
+    -moz-transform: scale(2,2);
+    -ms-transform: scale(2,2);
+    -o-transform: scale(2,2);
+}
+    /* نهايه مجموعه تانيه */
+/* بدايه مجموعه تالته */
+.banner{
+    margin-top: 50%;
+    background-image: url(imge/bg-intro-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    
+}
+
+.banner p{
+    color: red;
+    font-style: italic;
+    font-size: 24px;
+    margin-left: 350px;
+    padding-left: 200px;
+    
+}
+.banner h3{
+    color: white;
+    font-size: 48px;
+    font-weight: bolder;
+}
+/* نهايه مجموعه تالته */
+/* style 4 */
+.features-container{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    
+    display: flex;
+}
+.feature-card {
+    margin:auto;
+   border: 10px solid wheat;
+    
+
+}
+.feature-card img{
+   overflow: hidden;
+   width: 100%;
+   max-width: 400px;
+   height: 100%;
+  max-height: 400px;
+  margin-bottom: 100px;
+}
+.feature-card img:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.features-container a{
+    
+    text-transform: uppercase;
+    
+    text-align: center;
+}  
+.features-container a:hover{
+    color: red;
+}
+.features-container p{
+    color: burlywood;
+} 
+/* Menu Section */
+.menu-section {
+    text-align: center;
+    padding: 50px 10%;
+    background-color: #f9f5eb; 
+  }
+  
+  .menu-section p{
+    font-size: 24px;
+    color: #d93025;
+    margin-bottom: 10px;
+  }
+  
+  .menu-section h3 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .menu-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    
+    
+  }
+  
+  .menu-item {
+    position: relative;
+    overflow: hidden;
+
+    
+}
+  
+  .menu-item img {
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    max-height: 400px;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  
+  .menu-item:hover img {
+    transform: scale(1.1);
+  }
+  
+  .menu-item button {
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  .menu-item button:hover {
+    background-color: rgba(217, 48, 37, 0.9); /* تغيير اللون عند التمرير */
+    color: #fff;
+  }
+.events-section{
+    margin-top: 10%;
+}
+  
+.events-intro h5{
+    font-weight: bold;
+text-align: center;
+color: black;
+font-size: 5em;   
+}
+.reservation img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 600px;
+    overflow: hidden;
+    border: 10px solid white;
+   height: 100%;
+   max-height: 600px;
+margin-bottom: 100%;
+}
+.reservation img:hover{
+    transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+}
+.events-section input{width: 100px;
+height: 20px;
+margin-top: 10%;
+
+}
+.vidio{
+    
+
+}
+.blog-section{
+    text-align: center;
+    padding: 50px 20px;
+}
+.blog-section p{
+    color: red;
+    font-style: italic;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.blog-section h6{
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.blog-intro{
+    display: inline-block;
+    text-align: center;
+    border: 1px solid wheat;
+    gap: 4px;
+    
+}
+   .blog-intro img{
+    width: 100%;
+    max-width: 300px;
+    overflow: hidden;
+    
+   height: 100%;
+   max-height: 300px;
+
+   }
+   .blog-intro img:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+   }
+   .blog-section btn{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+
+   }
+   .blog-section btn:hover{color: red;}
+   .blog-section btnn{
+    color: burlywood;
+    text-transform: uppercase;
+   }
+   .blog-section btnn:hover{color: red;}
+   .blog-section p{color: burlywood;
+margin-bottom: 15px;}
+   .footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;}
+    .footer-column{
+        margin: 0 15px;
+    }
+    .footer-column h3 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .footer-column p{
+        font-size: 14px;
+        line-height: 1.8;
+        color: #ccc;
+        text-decoration: none;
+    }
+ 
+    .footer-column a{
+        font-size: 14px;
+        line-height: 1.8;
+        color: #ccc;
+        text-decoration: none;
+    }
+    .footer-column li{
+        font-size: 14px;
+        line-height: 1.8;
+        color: #ccc;
+        text-decoration: none;
+    }
+    .footer-column a:hover {
+        color: #fff;
+    }
+    .footer-bottom {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 12px;
+        color: #777;
+    }
